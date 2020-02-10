@@ -33,4 +33,9 @@ public class Animal
         System.out.println("Meow!");
     }
 
+    public toString()
+    {
+        
+    }
+
 }

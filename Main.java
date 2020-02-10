@@ -24,3 +24,16 @@ System.out.println((Cat)mino.getNumLives()); //program won't compile here // com
 mino = new Dog("Misty"); // This will compile because type is Animal
 topcat = new Dog("Tara");// Won't compile because type is cat
 
+Animal a = new Cat("a");
+Animal b = new Cat("b");
+
+System.out.println(a);
+System.out.println(b);
+
+a = b;
+
+a.setName("c");
+
+System.out.println(a);
+System.out.println(b);
+
