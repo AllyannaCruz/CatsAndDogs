@@ -10,10 +10,13 @@ public class Cat extends Animal
     }
 
     public void getNumLives(int numLives)
+    {
+
+    }
 
     public void setNumLives(int numLives)
     {
         this.numLives = numLives;
     }
-    }
+    
 }
